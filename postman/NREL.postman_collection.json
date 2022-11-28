@@ -1,0 +1,284 @@
+{
+	"info": {
+		"_postman_id": "723c002f-03ae-4101-ba59-50d1d21d42e8",
+		"name": "NREL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1001940"
+	},
+	"item": [
+		{
+			"name": "/solar/spectral_ondemand_download",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://developer.nrel.gov/api/nsrdb_api/solar/spectral_ondemand_download.json?api_key=QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn&wkt=POINT(36.18446986%20-5.42021928)&names=2018&full_name=Nikola%20Tesla&email=alan@renewableenergy.place&affiliation=NREL&mailing_list=false&reason=test&equipment=fixed_tilt&tilt=40&angle=130",
+					"protocol": "http",
+					"host": [
+						"developer",
+						"nrel",
+						"gov"
+					],
+					"path": [
+						"api",
+						"nsrdb_api",
+						"solar",
+						"spectral_ondemand_download.json"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn"
+						},
+						{
+							"key": "wkt",
+							"value": "POINT(36.18446986%20-5.42021928)"
+						},
+						{
+							"key": "names",
+							"value": "2018"
+						},
+						{
+							"key": "full_name",
+							"value": "Nikola%20Tesla"
+						},
+						{
+							"key": "email",
+							"value": "alan@renewableenergy.place"
+						},
+						{
+							"key": "affiliation",
+							"value": "NREL"
+						},
+						{
+							"key": "mailing_list",
+							"value": "false"
+						},
+						{
+							"key": "reason",
+							"value": "test"
+						},
+						{
+							"key": "equipment",
+							"value": "fixed_tilt"
+						},
+						{
+							"key": "tilt",
+							"value": "40"
+						},
+						{
+							"key": "angle",
+							"value": "130"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(US) /api/solar/solar_resource/v1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://developer.nrel.gov/api/solar/solar_resource/v1.json?format=json&lat=36.18446986&lon=-5.42021928&api_key=QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn",
+					"protocol": "https",
+					"host": [
+						"developer",
+						"nrel",
+						"gov"
+					],
+					"path": [
+						"api",
+						"solar",
+						"solar_resource",
+						"v1.json"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "json"
+						},
+						{
+							"key": "lat",
+							"value": "36.18446986"
+						},
+						{
+							"key": "lon",
+							"value": "-5.42021928"
+						},
+						{
+							"key": "api_key",
+							"value": "QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/solar/data_query/v1.format?parameters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://developer.nrel.gov/api/solar/data_query/v1.json?lat=36.18446986&lon=-5.42021928&api_key=QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn&format=json",
+					"protocol": "https",
+					"host": [
+						"developer",
+						"nrel",
+						"gov"
+					],
+					"path": [
+						"api",
+						"solar",
+						"data_query",
+						"v1.json"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "36.18446986"
+						},
+						{
+							"key": "lon",
+							"value": "-5.42021928"
+						},
+						{
+							"key": "api_key",
+							"value": "QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(US) /api/pvwatts/v6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://developer.nrel.gov/api/solar/data_query/v1.json?lat=36.18446986&lon=-5.42021928&api_key=QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn&format=json",
+					"protocol": "https",
+					"host": [
+						"developer",
+						"nrel",
+						"gov"
+					],
+					"path": [
+						"api",
+						"solar",
+						"data_query",
+						"v1.json"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "36.18446986"
+						},
+						{
+							"key": "lon",
+							"value": "-5.42021928"
+						},
+						{
+							"key": "api_key",
+							"value": "QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/nsrdb/v2/site-count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://developer.nrel.gov/api/solar/data_query/v1.json?lat=36.18446986&lon=-5.42021928&api_key=QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn&format=json",
+					"protocol": "https",
+					"host": [
+						"developer",
+						"nrel",
+						"gov"
+					],
+					"path": [
+						"api",
+						"solar",
+						"data_query",
+						"v1.json"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "36.18446986"
+						},
+						{
+							"key": "lon",
+							"value": "-5.42021928"
+						},
+						{
+							"key": "api_key",
+							"value": "QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/nsrdb/v2/solar/msg-iodc-download.csv",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://developer.nrel.gov/api/solar/data_query/v1.json?lat=36.18446986&lon=-5.42021928&api_key=QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn&format=json",
+					"protocol": "https",
+					"host": [
+						"developer",
+						"nrel",
+						"gov"
+					],
+					"path": [
+						"api",
+						"solar",
+						"data_query",
+						"v1.json"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "36.18446986"
+						},
+						{
+							"key": "lon",
+							"value": "-5.42021928"
+						},
+						{
+							"key": "api_key",
+							"value": "QrouYBrl2Ri0ZIlVwwb2JJW1XBB5F9TqCUjYM7bn"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
